@@ -1,0 +1,21 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8762
+spring:
+  application:
+    name: service-hi
+  redis:
+    host: 192.168.78.128
+    database: 0
+    port: 6379
+  datasource:
+    name: demo
+    url: jdbc:mysql://192.168.16.137:3306/demo
+    username: root
+    password: 1234
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
