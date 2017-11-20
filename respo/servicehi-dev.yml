@@ -8,7 +8,7 @@ spring:
     database: 0
     port: 6379
   datasource:
-    name: ${datasource.name:demo}
+    name: ${datasource_name:demo}
     url: jdbc:mysql://192.168.16.137:3306/demo
     username: root
     password: 1234
