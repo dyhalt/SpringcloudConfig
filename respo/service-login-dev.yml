@@ -7,4 +7,4 @@ server:
 spring:
   application:
     name: service-login
-mygender: man
+mygender: woman
